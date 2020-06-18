@@ -27,13 +27,14 @@ export const PaginationWrapper = styled.div`
   }
 `
 
-export const PaginationElement = styled(props => <Link {..props} />)`
+export const PaginationElement = styled(props => <Link {...props} />)`
   font-size: 0.875rem;
   line-height: 1.125rem;
   font-weight: 400;
   text-text-decoration: none;
   margin: 0 2rem;
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     text-decoration: underline;
   }
 `

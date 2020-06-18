@@ -23,7 +23,7 @@ export default {
     medium: "2rem",
     large: "3rem",
     xLarge: "4rem",
-    xxlarge: "6rem",
+    xxLarge: "6rem",
   },
   animations: {
     button: "box-shadow 0.3s ease",
